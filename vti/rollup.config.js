@@ -1,4 +1,4 @@
-const { getRootPath, clearDist, external, onwarn, createPlugins } = require('../build/rollup-common-config');
+const { getRootPath, clearDist, external, onwarn, createPlugins } = require('./rollup-common-config');
 const vtiPkg = require('./package.json');
 
 const getVTIPath = getRootPath('vti');
